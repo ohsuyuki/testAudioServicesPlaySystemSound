@@ -14,6 +14,7 @@
 		1CE3614520AE8854003BE90E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE3614320AE8854003BE90E /* LaunchScreen.storyboard */; };
 		1CE3615020AE8854003BE90E /* testAudioServicesPlaySystemSoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE3614F20AE8854003BE90E /* testAudioServicesPlaySystemSoundTests.swift */; };
 		1CE3615B20AE8854003BE90E /* testAudioServicesPlaySystemSoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE3615A20AE8854003BE90E /* testAudioServicesPlaySystemSoundUITests.swift */; };
+		1CE3616920AE95C1003BE90E /* sound1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CE3616820AE95C1003BE90E /* sound1.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1CE3615620AE8854003BE90E /* testAudioServicesPlaySystemSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAudioServicesPlaySystemSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE3615A20AE8854003BE90E /* testAudioServicesPlaySystemSoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAudioServicesPlaySystemSoundUITests.swift; sourceTree = "<group>"; };
 		1CE3615C20AE8854003BE90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CE3616820AE95C1003BE90E /* sound1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound1.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1CE3614120AE8854003BE90E /* Assets.xcassets */,
 				1CE3614320AE8854003BE90E /* LaunchScreen.storyboard */,
 				1CE3614620AE8854003BE90E /* Info.plist */,
+				1CE3616820AE95C1003BE90E /* sound1.wav */,
 			);
 			path = testAudioServicesPlaySystemSound;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE3616920AE95C1003BE90E /* sound1.wav in Resources */,
 				1CE3614520AE8854003BE90E /* LaunchScreen.storyboard in Resources */,
 				1CE3614220AE8854003BE90E /* Assets.xcassets in Resources */,
 				1CE3614020AE8853003BE90E /* Main.storyboard in Resources */,
