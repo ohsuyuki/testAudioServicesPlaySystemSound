@@ -15,6 +15,7 @@
 		1CE3615020AE8854003BE90E /* testAudioServicesPlaySystemSoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE3614F20AE8854003BE90E /* testAudioServicesPlaySystemSoundTests.swift */; };
 		1CE3615B20AE8854003BE90E /* testAudioServicesPlaySystemSoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE3615A20AE8854003BE90E /* testAudioServicesPlaySystemSoundUITests.swift */; };
 		1CE3616920AE95C1003BE90E /* sound1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CE3616820AE95C1003BE90E /* sound1.wav */; };
+		1CE3616C20AE97EE003BE90E /* sound2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CE3616B20AE97EE003BE90E /* sound2.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1CE3615A20AE8854003BE90E /* testAudioServicesPlaySystemSoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAudioServicesPlaySystemSoundUITests.swift; sourceTree = "<group>"; };
 		1CE3615C20AE8854003BE90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CE3616820AE95C1003BE90E /* sound1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound1.wav; sourceTree = "<group>"; };
+		1CE3616B20AE97EE003BE90E /* sound2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound2.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		1CE3613920AE8853003BE90E /* testAudioServicesPlaySystemSound */ = {
 			isa = PBXGroup;
 			children = (
+				1CE3616A20AE97D6003BE90E /* Sound */,
 				1CE3613A20AE8853003BE90E /* AppDelegate.swift */,
 				1CE3613C20AE8853003BE90E /* ViewController.swift */,
 				1CE3613E20AE8853003BE90E /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				1CE3615C20AE8854003BE90E /* Info.plist */,
 			);
 			path = testAudioServicesPlaySystemSoundUITests;
+			sourceTree = "<group>";
+		};
+		1CE3616A20AE97D6003BE90E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				1CE3616B20AE97EE003BE90E /* sound2.wav */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE3616C20AE97EE003BE90E /* sound2.wav in Resources */,
 				1CE3616920AE95C1003BE90E /* sound1.wav in Resources */,
 				1CE3614520AE8854003BE90E /* LaunchScreen.storyboard in Resources */,
 				1CE3614220AE8854003BE90E /* Assets.xcassets in Resources */,

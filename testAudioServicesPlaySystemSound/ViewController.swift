@@ -26,7 +26,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
 
     @IBAction func tapButtonBundleSound(_ sender: Any) {
-        guard let soundPath = Bundle.main.path(forResource: "sound1", ofType: "wav") else {
+        guard let soundPath = Bundle.main.path(forResource: "sound2", ofType: "wav") else {
             return
         }
 
